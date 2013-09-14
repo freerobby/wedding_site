@@ -1,0 +1,4 @@
+BRIDE_FIRST_NAME = 'Rachel'
+BRIDE_LAST_NAME = 'Zettel'
+GROOM_FIRST_NAME = 'Michael'
+GROOM_LAST_NAME = 'Macasek'

@@ -1,5 +1,7 @@
 require 'sinatra'
 
+require 'constants'
+
 get '/' do
   @page_title = set_title('Home')
 
@@ -69,5 +71,5 @@ end
 ###########
 
 def set_title(page_name)
-  "Macasek + Zettel Wedding - #{page_name}"
+  "#{GROOM_LAST_NAME} + #{BRIDE_LAST_NAME} Wedding - #{page_name}"
 end
