@@ -60,9 +60,9 @@
             <br />
             <div class="popular-item-lightcolor"><%= WEDDING_DATE_PRETTY %></div>
             <div class="popular-item-lightcolor"><%= WEDDING_VENUE %></div>
-            <div class="popular-item-lightcolor">Ceremony starts at: TBD</div>
+            <div class="popular-item-lightcolor">Ceremony starts at <%= WEDDING_TIME_PRETTY %></div>
             <div class="popular-item-lightcolor">Reception to follow</div>
-            <div class="popular-item-lightcolor">There will be bus(es) from the Cambridge area</div>
+            <div class="popular-item-lightcolor">There will be shuttles to and from the Embassy Suites hotel</div>
             <br />
           </div>
                 
@@ -78,7 +78,7 @@
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-38080157-1']);
+      _gaq.push(['_setAccount', '<%= GOOGLE_ANALYTICS_ID %>']);
       _gaq.push(['_trackPageview']);
 
       (function() {
