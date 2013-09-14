@@ -75,5 +75,5 @@ end
 ###########
 
 def set_title(page_name)
-  "#{GROOM_LAST_NAME} + #{BRIDE_LAST_NAME} Wedding - #{page_name}"
+  "#{GROOM_FIRST_NAME} &amp; #{BRIDE_FIRST_NAME} - #{page_name}"
 end
