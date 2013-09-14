@@ -2,7 +2,7 @@
 <html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title><%=@page_title%></title>  
-    <meta name="description" content="Join us to celebrate our wedding on the 25th of May, 2014 at Castle Hill on The Crane Estate in Massachusetts" />
+    <meta name="description" content="Join us to celebrate our wedding on <%= WEDDING_DATE_LONGFORM %> at <%= WEDDING_VENUE %> in <%= WEDDING_STATE %>" />
     <meta name="keywords" content="wedding, wedding invitation, website, wedding website, online wedding" />
     <!--<meta name="viewport" content="width=device-width; initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />-->
     <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
@@ -60,8 +60,8 @@
             <div class="popular-post-lightcolor">Day of Details</div>
             <div class="border2"></div>
             <br />
-            <div class="popular-item-lightcolor">May 25th, 2014</div>
-            <div class="popular-item-lightcolor">Castle Hill on The Crane Estate</div>
+            <div class="popular-item-lightcolor"><%= WEDDING_DATE_PRETTY %></div>
+            <div class="popular-item-lightcolor"><%= WEDDING_VENUE %></div>
             <div class="popular-item-lightcolor">Ceremony starts at: TBD</div>
             <div class="popular-item-lightcolor">Reception to follow</div>
             <div class="popular-item-lightcolor">There will be bus(es) from the Cambridge area</div>

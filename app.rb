@@ -1,6 +1,6 @@
 require 'sinatra'
 
-require 'constants'
+require './constants'
 
 get '/' do
   @page_title = set_title('Home')
@@ -66,6 +66,10 @@ get '/rsvp' do
   @page_title = set_title('RSVP')
 
   erb :rsvp
+end
+
+get '/javascripts/jquery.function.js' do
+  erb :'javascripts/jquery.function.js', layout: false
 end
 
 ###########
