@@ -14,12 +14,6 @@ get '/our_story' do
   erb :our_story
 end
 
-get '/wedding_party' do
-  @page_title = set_title('Wedding Party')
-
-  erb :wedding_party
-end
-
 get '/registry' do
   @page_title = set_title('Registry')
 
