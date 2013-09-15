@@ -20,12 +20,6 @@ get '/registry' do
   erb :registry
 end
 
-get '/schedule' do
-  @page_title = set_title('Schedule')
-
-  erb :schedule
-end
-
 get '/travel' do
   @page_title = set_title('Travel')
 
@@ -36,24 +30,6 @@ get '/hotels' do
   @page_title = set_title('Hotels')
 
   erb :hotels
-end
-
-get '/restaurants' do
-  @page_title = set_title('Restaurants')
-
-  erb :restaurants
-end
-
-get '/transportation' do
-  @page_title = set_title('Transportation')
-
-  erb :transportation
-end
-
-get '/things_to_do' do
-  @page_title = set_title('Things To Do')
-
-  erb :things_to_do
 end
 
 get '/rsvp' do
