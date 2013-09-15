@@ -8,6 +8,7 @@ GROOM_LAST_NAME = 'Grossman'
 
 WEDDING_DATE = Time.new(2014, 2, 8, 18, 0)
 WEDDING_VENUE = 'Longfellow\'s Wayside Inn'
+WEDDING_CITY = 'Sudbury'
 WEDDING_STATE = 'Massachusetts'
 WEDDING_ADDRESS = '72 Wayside Inn Rd, Sudbury, MA'
 
