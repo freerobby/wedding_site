@@ -8,12 +8,6 @@ get '/' do
   erb :index
 end
 
-get '/our_story' do
-  @page_title = set_title('Our Story')
-
-  erb :our_story
-end
-
 get '/registry' do
   @page_title = set_title('Registry')
 
