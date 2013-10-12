@@ -4,7 +4,56 @@
   <div class="clear2x"></div>
 
   <div class="section-01"> 
-    <h6 style="text-align:center">Coming Soon</h6>
+    <form action="/rsvp" method="post">
+      <p>
+        <em>Please fill in both fields for two guests, or only the first field for one.</em><br />
+        <label for="name">I/we: </label><input type="text" name="name1" style="width: 150px;"></input>
+        <label for="name">and </label><input type="text" name="name2" style="width: 150px;"></input><br />
+      </p>
+
+      <p>
+        <label><input type="radio" name="response" value="Gladly accept" />Gladly accept</label><br />
+        <label><input type="radio" name="response" value="Regretfully decline" />Regretfully decline</label>
+      </p>
+
+      <p>
+        I/we would like to eat:<br />
+        <label>
+          <select name="number_chicken">
+            <option value="0" selected="selected">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          Chicken
+        </label>
+        <br />
+        <label>
+          <select name="number_beef">
+            <option value="0" selected="selected">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          Beef
+        </label>
+        <br />
+        <label>
+          <select name="number_vegetarian">
+            <option value="0" selected="selected">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          Vegetarian
+        </label>
+      </p>
+
+      <p>
+        I/we intend to bring <input type="text" name="number_of_children" maxlength="2" style="width: 20px;" value="0"></input> children (kid's meal provided).
+      </p>
+
+      <p>
+        <input type="submit" />
+      </p>
+    </form>
   </div>
 
   <div id="note"></div>
